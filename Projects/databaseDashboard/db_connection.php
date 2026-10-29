@@ -6,8 +6,8 @@ function getSensorDatabaseConnection(): PDO
 {
     $dbHost = getenv('DB_HOST') ?: 'localhost';
     $dbName = getenv('DB_NAME') ?: 'u901022221_YahirMagana';
-    $dbUser = getenv('DB_USER') ?: 'u901022221_db_YahirMagana';
-    $dbPass = getenv('DB_PASS') ?: '#WfW/7.!K_xp&vj';
+    $dbUser = getenv('DB_USER') ?: '';
+    $dbPass = getenv('DB_PASS') ?: '';
     $dbPort = getenv('DB_PORT') ?: '3306';
 
     if (
