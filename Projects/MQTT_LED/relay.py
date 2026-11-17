@@ -32,7 +32,7 @@ BROKER_PORT = int(os.getenv("MQTT_PORT", "1883"))
 # Must match TOPIC_OUT in the ESP sketch.
 MQTT_TOPIC = os.getenv(
     "MQTT_TOPIC",
-    "testtopic/temp/outTopic/YOUR_UNIQUE_ID",
+    "testtopic/temp/outTopic/voltage",
 )
 
 # Full URL to the existing PHP insert file.
